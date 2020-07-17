@@ -9,7 +9,7 @@ def greet_characters(array = ["Dopey", "Grumpy", "Bashful"])
   # Print a custom greeting for each element
 end
 
-def list_dwarves(array = ["Dopey", "Grumpy", "Bashful"])
+def list_dwarves(array = ["Dopey", "Grumpy", "Bashful", "Doc", "Sneezy"])
   array.each.with_index(1) do |name, index|
     puts "#{index}. #(name}"
   end

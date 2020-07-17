@@ -11,7 +11,7 @@ end
 
 def list_dwarves(array = ["Dopey", "Grumpy", "Bashful"])
   array.each_with_index do |list_dwarves, index|
-    puts "#{index + 1}. #(list_dwarves}"
+    puts "index + 1. #(list_dwarves}"
   end
   # Use `each_with_index` to enumerate over the provided array
   #

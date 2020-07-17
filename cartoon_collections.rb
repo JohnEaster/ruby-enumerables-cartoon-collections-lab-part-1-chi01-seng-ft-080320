@@ -10,8 +10,8 @@ def greet_characters(array = ["Dopey", "Grumpy", "Bashful"])
 end
 
 def list_dwarves(array = ["Dopey", "Grumpy", "Bashful"])
-  array.each_with_index do |list_dwarves, index|
-    puts "index + 1. #(list_dwarves}"
+  array.each.with_index(1) do |list_dwarves, index|
+    puts "#{index}. #(list_dwarves}"
   end
   # Use `each_with_index` to enumerate over the provided array
   #
